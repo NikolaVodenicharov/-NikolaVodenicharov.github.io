@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Solid State by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Home</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="sky.html">Sky</a></li>
+								<li><a href="tyres.html">Tyres</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Sky</h2>
+								<p>Sky is a weather app with clean display, easy to use and straight to the point UI. Fast and responsive, without an overwhelming amount of data.</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+									<h3 class="major">Description</h3>
+									<p>The main display that is loaded after starting the app. With plain and simple search bar. While searching for a name of city a list with over a 100 000 cities to choose from appear. The result of search apper after selecting a city and clicking the search button. A tip... there is no need to search the city that we are currently in. We just have to slide to the right. The app will get the current location weather for us.</p>
+
+									<section class="features">
+										<article>
+											<a class="image"><img src="images/sky_images/sky_main.jpg" alt="" /></a>
+											<h3 class="major">Search display</h3>
+											<p>The main display that is loaded after starting the app. With plain and simple search bar.</p>
+											<a href="#" class="special">Up</a>
+										</article>
+										<article>
+											<a class="image"><img src="images/sky_images/sky_search.jpg" alt="" /></a>
+											<h3 class="major">Drop down suggestion list</h3>
+											<p>While searching for a name of city a list with over a 100 000 cities to choose from appear.</p>
+											<a href="#" class="special">Up</a>
+										</article>
+										<article>
+											<a class="image"><img src="images/sky_images/sky_result.jpg" alt="" /></a>
+											<h3 class="major">Weather result</h3>
+											<p>The result of search apper after selecting a city and clicking the search button. A tip... there is no need to search the city that we are currently in. We just have to slide to the right. The app will get the current location weather for us.</p>
+											<a href="#" class="special">Up</a>
+										</article>
+									</section>
+
+									<h3 class="major">What is used in the project</h3>
+									<p>MVVM facilitate separation of concern. Maintaining a clear detaching UI and logic. Making application easier to test, maintain and evolve. A domain driven design that is positioning the business logic and application models at the center. They do not depend of any data access of infrastructure. The dependency is inverted, implementation details depend of the core. This functionallity is achieved by abstraction and interfaces. Using the Volley library we are requesting a data for the weather from remote source. Using the provided api with the specific documentation from that source we can utilize it for our purposes. Using a Room database to store the weather results for reuse in the next few min. That is reducing the internet traffic from making request for weather forecast for the same city after we already have get one recently. The different sources of data are merged together at one source of truth. Repository responsibility to gather, keep up to date and give information to the rest of the app. The flow of data goes only through one place that manage it. Written with java for android the app have the bones of one of the best languages out there.</p>
+
+									<section class="features">
+										<article>
+											<a class="image"><img src="images/mvvm.png" alt="" /></a>
+											<h3 class="major">MVVM pattern</h3>
+											<p>MVVM facilitate separation of concern. Maintaining a clear detaching UI and logic. Making application easier to test, maintain and evolve.</p>
+											<a href="#" class="special">Up</a>
+										</article>
+										<article>
+											<a class="image"><img src="images/clean_architecture _ms.png" alt="" /></a>
+											<h3 class="major">Clean architecture</h3>
+											<p>A domain driven design that is positioning the business logic and application models at the center. They do not depend of any data access of infrastructure. The dependency is inverted, implementation details depend of the core. This functionallity is achieved by abstraction and interfaces.</p>
+											<a href="#" class="special">Up</a>
+										</article>
+										<article>
+											<a class="image"><img src="images/rest_api.png" alt="" /></a>
+											<h3 class="major">Rest API</h3>
+											<p>Using the Volley library we are requesting a data for the weather from remote source. Using the provided api with the specific documentation from that source we can utilize it for our purposes.</p>
+											<a href="#" class="special">Up</a>
+										</article>
+										<article>
+											<a class="image"><img src="images/sql.jpg" alt="" /></a>
+											<h3 class="major">Database</h3>
+											<p>Using a Room database to store the weather results for reuse in the next few min. That is reducing the internet traffic from making request for weather forecast for the same city after we already have get one recently.</p>
+											<a href="#" class="special">Up</a>
+										</article>
+										<article>
+											<a class="image"><img src="images/single_source_of_truth.png" alt="" /></a>
+											<h3 class="major">Source of truth</h3>
+											<p>The different sources of data are merged together at one source of truth. Repository responsibility to gather, keep up to date and give information to the rest of the app. The flow of data goes only through one place that manage it.</p>
+											<a href="#" class="special">Up</a>
+										</article>
+										<article>
+											<a class="image"><img src="images/android.png" alt="" /></a>
+											<h3 class="major">Java</h3>
+											<p>Written with java for android the app have the bones of one of the best languages out there.</p>
+											<a href="#" class="special">Up</a>
+										</article>
+									</section>
+								</div>
+							</div>
+					</section>
+
+				<!-- Footer 
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Untitled Inc<br />
+									1234 Somewhere Road Suite #2894<br />
+									Nashville, TN 00000-0000
+								</li>
+								<li class="icon solid fa-phone">(000) 000-0000</li>
+								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
+								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
+								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+							</ul>
+						</div>
+					</section>
+				-->
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
